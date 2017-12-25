@@ -29,8 +29,10 @@ export default class HomeScreen extends Component {
         <Content>
           {/*display tweets*/}
           <Tweet
+            dp="https://pbs.twimg.com/profile_images/593800308792385538/Xy7-rPky.jpg"
+            tweetImage="http://static2.tripoto.com/media/travel-story/mumbai1.jpg"
             name="Dipti Shinde"
-            twitterId="@dipti1994"
+            twitterId="@dipti_"
             lastSeen="10h"
             tweetcontent="Mumbai!!! The city of dreams"
             comments="27"
@@ -38,10 +40,12 @@ export default class HomeScreen extends Component {
             likes="300"
           />
           <Tweet
-            name="Dipti Shinde"
-            twitterId="@dipti1994"
-            lastSeen="10h"
-            tweetcontent="Mumbai. The city of dreams"
+            dp="https://pbs.twimg.com/profile_images/453438113071644673/3c4ZTNb4.jpeg"
+            tweetImage="http://st.automobilemag.com/uploads/sites/5/2017/11/2020-Tesla-Roadster-10.jpg"
+            name="Vinit Kadam"
+            twitterId="@vinitkadam1997"
+            lastSeen="12h"
+            tweetcontent="My Dream car. Tesla Roadster 2!!!!"
             comments="27"
             retweets="29"
             likes="300"

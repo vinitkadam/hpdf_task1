@@ -5,12 +5,12 @@ import Icon from 'react-native-vector-icons/EvilIcons';
 
 const Tweet = (props) => {
 
-    const { name, twitterId, lastSeen, tweetcontent, comments, retweets, likes } = props;
+    const { dp, tweetImage, name, twitterId, lastSeen, tweetcontent, comments, retweets, likes } = props;
     return (
       <Card style={{ marginTop: 0, marginBottom: 0 }}>
         <CardItem>
           <Left>
-            <Thumbnail source={require('../images/user1.jpg')} />
+            <Thumbnail source={{ uri: dp }} />
             <Body style={{ flexDirection: 'row' }}>
               <View>
                 <View style={{ flexDirection: 'row' }}>
@@ -28,7 +28,7 @@ const Tweet = (props) => {
 
         <CardItem>
             <Body>
-              <Image source={require('../images/image1.jpg')} style={{ height: 200, width: 300, alignSelf: 'flex-end' }} />
+              <Image source={{ uri: tweetImage }} style={{ height: 200, width: 300, alignSelf: 'flex-end' }} />
             </Body>
         </CardItem>
 
