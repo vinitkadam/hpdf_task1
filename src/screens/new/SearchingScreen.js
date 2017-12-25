@@ -12,13 +12,13 @@ const SearchingScreen = (props) => {
       <Container>
       <Content>
         <View style={styles.viewStyle}>
-          <View style={{ flex: 1 }}>
+          <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
             <TouchableOpacity transparent onPress={() => navigation.navigate('Home')}>
-              <Icon name="keyboard-backspace" style={{ color: '#00a4e4', fontSize: 40 }} />
+              <Icon name="keyboard-backspace" style={{ color: '#00a4e4', fontSize: 35 }} />
             </TouchableOpacity>
           </View>
 
-          <View style={{ paddingLeft: 20, flex: 5 }}>
+          <View style={{ paddingLeft: 20, flex: 6}}>
             <Input placeholder="Search Twitter" />
           </View>
         </View>
@@ -31,9 +31,9 @@ const SearchingScreen = (props) => {
 const styles = {
   viewStyle: {
     backgroundColor: '#FFFFFF',
-    justifyContent: 'flex-start',
+    justifyContent: 'center',
+    alignItems: 'center',
     height: 60,
-    paddingTop: 15,
     flexDirection: 'row',
     position: 'relative'
   }

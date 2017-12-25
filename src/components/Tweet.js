@@ -7,7 +7,7 @@ const Tweet = (props) => {
 
     const { dp, tweetImage, name, twitterId, lastSeen, tweetcontent, comments, retweets, likes } = props;
     return (
-      <Card style={{ marginTop: 0, marginBottom: 0 }}>
+      <Card style={{ marginTop: 0, marginBottom: 0, marginRight: 0 }}>
         <CardItem>
           <Left>
             <Thumbnail source={{ uri: dp }} />

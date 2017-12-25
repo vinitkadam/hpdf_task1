@@ -38,7 +38,7 @@ export default class Sidebar extends React.Component {
               </TouchableOpacity>
             </View>
 
-          <View style={{ borderBottomColor: 'grey', borderBottomWidth: 1, marginTop: 10 }}/>
+          <View style={{ borderBottomColor: 'grey', borderBottomWidth: .2, marginTop: 10 }}/>
 
           <List>
           <TouchableHighlight

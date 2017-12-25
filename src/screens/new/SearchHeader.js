@@ -7,7 +7,7 @@ export default class SearchHeader extends React.Component {
     const { navigate } = this.props.navigation;
     return (
         <Header style={{ backgroundColor: 'white', elevation: 0 }} searchBar rounded>
-          <Left style={{ flex: .15 }}>
+          <Left style={{ flex: 1 }}>
             <Button
               transparent
               onPress={() => this.props.navigation.navigate("DrawerOpen")}
@@ -18,14 +18,14 @@ export default class SearchHeader extends React.Component {
               />
             </Button>
           </Left>
-          <Body style={{ flex: .75 }}>
+          <Body style={{ flex: 6 }}>
             <Item rounded style={{ height: 40, marginLeft: 0, backgroundColor: '#ededed' }}>
-              <Input placeholder="  Search Twitter"  onFocus={() => this.props.navigation.navigate("SearchingScreen")} />
+              <Input placeholder="  Search Twitter" style={{ marginLeft: 20 }} onFocus={() => this.props.navigation.navigate("SearchingScreen")} />
             </Item>
           </Body>
-          <Right style={{ flex: .15 }}>
+          <Right style={{ flex: 1 }}>
             <Button transparent>
-              <Icon name='ios-person-add-outline' style={{ color: '#00a4e4', fontSize: 26 }} />
+              <Icon name='ios-person-add-outline' style={{ color: '#00a4e4', fontSize: 40 }} />
             </Button>
           </Right>
         </Header>
