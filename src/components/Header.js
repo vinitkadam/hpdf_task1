@@ -6,6 +6,7 @@ import { Content, Header, Left, Body, Right, Button, Title, View, Text } from 'n
 //import components
 import TitleHeader from './TitleHeader';
 import SearchHeader from './SearchHeader';
+import SearchScreen from '../screens/SearchScreen';
 
 
 //set custom headers of various tabs on main screen

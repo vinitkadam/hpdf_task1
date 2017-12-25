@@ -8,7 +8,7 @@ const TitleHeader = (props) => {
 
   return (
     <View style={viewStyle}>
-      <View style={{ paddingLeft: 20 }}>
+      <View style={{ paddingLeft: 20, flex: 1 }}>
         <TouchableOpacity transparent onPress={() => navigation.navigate('DrawerOpen')}>
           <Image
             source={require('../images/user2.jpeg')}
@@ -16,12 +16,12 @@ const TitleHeader = (props) => {
             />
         </TouchableOpacity>
       </View>
-      <View>
+      <View style={{ flex: 6 }}>
         <Text style={textStyle}>
           {tabKey}
         </Text>
       </View>
-
+      <View style={{ flex: 1 }} />
     </View>
   );
 };

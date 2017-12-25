@@ -13,7 +13,8 @@ export default class Sidebar extends React.Component {
           shadowColor: '#000',
           shadowOffset: { width: 0, height: 2 },
           shadowOpacity: 0.8
-        }}>
+        }}
+      >
         <Content>
             <Image
               style={{ height: 60, width: 60, borderRadius: 50, marginTop: 20, marginLeft: 20, borderWidth: 1 }}
@@ -24,11 +25,11 @@ export default class Sidebar extends React.Component {
                 <Text style={{ fontWeight: 'bold', marginLeft: 20, marginTop: 10 }}>Vinit Kadam</Text>
               </Left>
               <Right>
-                    <Icon name='chevron-down' style={{paddingRight: 20, color: '#00aced'}} />
+                    <Icon name='chevron-down' style={{ paddingRight: 20, color: '#00aced' }} />
               </Right>
             </View>
             <Text style={{ color: 'grey', marginLeft: 20 }}>@vinitkadam1997</Text>
-            <View style={{flexDirection: 'row'}}>
+            <View style={{ flexDirection: 'row' }}>
               <TouchableOpacity>
                 <Text style={{ fontWeight: 'bold', marginLeft: 20, marginTop: 20}}>40<Text style={{ fontWeight: 'normal', color: 'grey' }}> Following</Text></Text>
               </TouchableOpacity>
