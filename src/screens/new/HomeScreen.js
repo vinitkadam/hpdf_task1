@@ -46,9 +46,9 @@ export default class HomeScreen extends Component {
             twitterId="@vinitkadam1997"
             lastSeen="12h"
             tweetcontent="My Dream car. Tesla Roadster 2!!!!"
-            comments="27"
-            retweets="29"
-            likes="300"
+            comments="278"
+            retweets="256"
+            likes="3.5K"
           />
         </Content>
         <Fab
