@@ -18,7 +18,7 @@ export default class SearchHeader extends React.Component {
               />
             </Button>
           </Left>
-          <Body style={{ flex: 6 }}>
+          <Body style={{ flex: 5 }}>
             <Item rounded style={{ height: 40, marginLeft: 0, backgroundColor: '#ededed' }}>
               <Input placeholder="  Search Twitter" style={{ marginLeft: 20 }} onFocus={() => this.props.navigation.navigate("SearchingScreen")} />
             </Item>

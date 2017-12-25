@@ -35,7 +35,9 @@ const styles = {
     alignItems: 'center',
     height: 60,
     flexDirection: 'row',
-    position: 'relative'
+    position: 'relative',
+    borderBottomWidth: 0.7,
+    borderBottomColor: '#dddddd'
   }
 };
 
