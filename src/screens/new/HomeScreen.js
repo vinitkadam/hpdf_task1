@@ -3,7 +3,7 @@ import { Container, Fab, Content } from 'native-base';
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
 //import components
-import Tweet from '../../components/Tweet';
+import NewTweet from '../../components/NewTweet';
 import SearchFooter from '../../components/SearchFooter';
 
 
@@ -28,8 +28,8 @@ export default class HomeScreen extends Component {
       <Container>
         <Content>
           {/*display tweets*/}
-          <Tweet
-            dp="https://pbs.twimg.com/profile_images/593800308792385538/Xy7-rPky.jpg"
+          <NewTweet
+            //dp="https://pbs.twimg.com/profile_images/593800308792385538/Xy7-rPky.jpg"
             tweetImage="http://static2.tripoto.com/media/travel-story/mumbai1.jpg"
             name="Dipti Shinde"
             twitterId="@dipti_"
@@ -39,8 +39,8 @@ export default class HomeScreen extends Component {
             retweets="29"
             likes="300"
           />
-          <Tweet
-            dp="https://pbs.twimg.com/profile_images/453438113071644673/3c4ZTNb4.jpeg"
+          <NewTweet
+            //dp="https://pbs.twimg.com/profile_images/453438113071644673/3c4ZTNb4.jpeg"
             tweetImage="http://st.automobilemag.com/uploads/sites/5/2017/11/2020-Tesla-Roadster-10.jpg"
             name="Vinit Kadam"
             twitterId="@vinitkadam1997"
