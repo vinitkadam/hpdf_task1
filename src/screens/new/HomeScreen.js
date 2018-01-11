@@ -29,7 +29,11 @@ export default class HomeScreen extends Component {
         <Content>
           {/*display tweets*/}
           <NewTweet
+<<<<<<< HEAD
             dp="https://pbs.twimg.com/profile_images/593800308792385538/Xy7-rPky.jpg"
+=======
+            //dp="https://pbs.twimg.com/profile_images/593800308792385538/Xy7-rPky.jpg"
+>>>>>>> 32af0cdae581ee8c23a1792a2057df6a27478cd1
             tweetImage="http://static2.tripoto.com/media/travel-story/mumbai1.jpg"
             name="Dipti Shinde"
             twitterId="@dipti_"
@@ -41,7 +45,11 @@ export default class HomeScreen extends Component {
             verified="true"
           />
           <NewTweet
+<<<<<<< HEAD
             dp="https://pbs.twimg.com/profile_images/453438113071644673/3c4ZTNb4.jpeg"
+=======
+            //dp="https://pbs.twimg.com/profile_images/453438113071644673/3c4ZTNb4.jpeg"
+>>>>>>> 32af0cdae581ee8c23a1792a2057df6a27478cd1
             tweetImage="http://st.automobilemag.com/uploads/sites/5/2017/11/2020-Tesla-Roadster-10.jpg"
             name="Vinit Kadam"
             twitterId="@vinitkadam1997"
